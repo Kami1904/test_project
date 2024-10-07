@@ -20,6 +20,9 @@ class _UserScreenState extends State<UserScreen> {
   }
 
   initialize() async {
+
+
+
     final Client client = Client();
     final Response response = await client
         .get(Uri.parse("https://jsonplaceholder.typicode.com/users"));
